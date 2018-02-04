@@ -9,7 +9,7 @@ app.listen((process.env.PORT || 3000));
 
 // GET to check if server is up and running
 app.get('/', function (req, res) {
-    res.send('This is TestBot Server');
+    res.send('This is Sonathan Bot Server');
 });
 
 // GET for Facebook Webhook
